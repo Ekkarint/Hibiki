@@ -1,0 +1,30 @@
+﻿<Window x:Class="Hibiki.SplashScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hibiki"
+        mc:Ignorable="d"
+        Title="SplashScreen" Height="150" Width="400" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF68D3FB" Offset="0"/>
+            <GradientStop Color="#FFD4F3FF" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <TextBlock x:Name="lb_HeaderSplash" Margin="40,20,40,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="50" TextAlignment="Center" FontSize="36"/>
+        <TextBlock x:Name="lb_VersionValue" Margin="0,0,10,10" TextWrapping="Wrap" Text="" TextAlignment="Left" HorizontalAlignment="Right" Width="52" Height="16" VerticalAlignment="Bottom" FontSize="10"/>
+        <TextBlock x:Name="lb_VersionHeader" HorizontalAlignment="Right" Margin="0,0,62,10" TextWrapping="Wrap" Text="Version : " VerticalAlignment="Bottom" FontSize="10" Height="16" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,70,0,0" TextWrapping="Wrap" Text="Personal As...." VerticalAlignment="Top" Width="320" Height="25" TextAlignment="Center" FontWeight="Light"/>
+    </Grid>
+</Window>
