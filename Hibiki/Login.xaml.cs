@@ -23,5 +23,14 @@ namespace Hibiki
         {
             InitializeComponent();
         }
+
+        private void btn_Login_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow wMain = new MainWindow();
+            Login wLogin = new Login();
+
+            wLogin.Close();
+            wMain.Show();
+        }
     }
 }

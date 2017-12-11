@@ -31,7 +31,8 @@ namespace Hibiki
 
             //Step 3 - Load your windows but don't show it yet
             base.OnStartup(e);
-            MainWindow main = new MainWindow();
+            //MainWindow main = new MainWindow();
+            Login login = new Login();
             timer.Stop();
 
             int remainingTimeToShowSplash = MINIMUM_SPLASH_TIME - (int)timer.ElapsedMilliseconds;
