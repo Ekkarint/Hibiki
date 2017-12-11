@@ -13,7 +13,7 @@
         </LinearGradientBrush>
     </Window.Background>
     <Grid>
-        <TextBlock x:Name="lb_HeaderSplash" Margin="40,20,40,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="50" TextAlignment="Center" FontSize="36"/>
+        <TextBlock x:Name="lb_HeaderSplash" Margin="40,20,40,0" TextWrapping="Wrap" Text="Hibiki" VerticalAlignment="Top" Height="50" TextAlignment="Center" FontSize="36"/>
         <TextBlock x:Name="lb_VersionValue" Margin="0,0,10,10" TextWrapping="Wrap" Text="" TextAlignment="Left" HorizontalAlignment="Right" Width="52" Height="16" VerticalAlignment="Bottom" FontSize="10"/>
         <TextBlock x:Name="lb_VersionHeader" HorizontalAlignment="Right" Margin="0,0,62,10" TextWrapping="Wrap" Text="Version : " VerticalAlignment="Bottom" FontSize="10" Height="16" RenderTransformOrigin="0.5,0.5">
             <TextBlock.RenderTransform>
@@ -25,6 +25,6 @@
                 </TransformGroup>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,70,0,0" TextWrapping="Wrap" Text="Personal As...." VerticalAlignment="Top" Width="320" Height="25" TextAlignment="Center" FontWeight="Light"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="40,70,0,0" TextWrapping="Wrap" Text="Personal assistant in your home." VerticalAlignment="Top" Width="320" Height="25" TextAlignment="Center" FontWeight="Light"/>
     </Grid>
 </Window>
