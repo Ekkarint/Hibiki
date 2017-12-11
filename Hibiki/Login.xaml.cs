@@ -28,9 +28,9 @@ namespace Hibiki
         {
             MainWindow wMain = new MainWindow();
             Login wLogin = new Login();
-
-            wLogin.Close();
+            
             wMain.Show();
+            this.Close();
         }
     }
 }

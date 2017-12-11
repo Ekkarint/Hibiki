@@ -16,7 +16,7 @@ namespace Hibiki
     /// </summary>
     public partial class App : Application
     {
-        private const int MINIMUM_SPLASH_TIME = 5000; // Miliseconds  
+        private const int MINIMUM_SPLASH_TIME = 500; // Miliseconds  
 
         protected override void OnStartup(StartupEventArgs e)
         {
